@@ -46,8 +46,8 @@ const InsertCustomer = async (db) => {
                 Address3:'Wythenshawe', City:'Manchester', country:'United Kingdom'},				
            
             Products: [
-				{ ProdNum: '09123490874565', ProductName: 'Current' },
-				{ ProdNum: '09123569867568', ProductName: 'Savings' }
+				{ ProdNum: 'A9123490874565', ProductName: 'Prod1' },
+				{ ProdNum: 'B9123569867568', ProductName: 'Prod2' }
 			]
         });
         
@@ -61,8 +61,8 @@ const InsertCustomer = async (db) => {
                 Address3:'Wythenshawe', City:'Manchester', country:'United Kingdom'},				
            
             Products: [
-				{ ProdNum: '09123490874455', ProductName: 'Current' },
-				{ ProdNum: '09123490874415', ProductName: 'Savings' }
+				{ ProdNum: 'A9123490874455', ProductName: 'Prod1' },
+				{ ProdNum: 'B9123490874415', ProductName: 'Prod2' }
 			]
         });
         
@@ -75,8 +75,8 @@ const InsertCustomer = async (db) => {
                 Address3:'Wythenshawe', City:'Manchester', country:'United Kingdom'},				
            
             Products: [
-				{ ProdNum: '09123490874565', ProductName: 'Current' },
-				{ ProdNum: '09123569867568', ProductName: 'Savings' }
+				{ ProdNum: 'A9123490874565', ProductName: 'Prod1' },
+				{ ProdNum: 'B9123569867568', ProductName: 'Prod2' }
 			]
 		});
 		console.log('Customer details added');
