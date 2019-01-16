@@ -1,5 +1,5 @@
 # CustomerSearch repository
-use below to run the projecr
+use below to run the projects
 
 npm install
 npm run setup
