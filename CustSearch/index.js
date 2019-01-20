@@ -2,10 +2,11 @@
 const services = require('./Services');
 const express = require('express');
 const custapp = express();
-
+var cors = require('cors');
 var CircularJSON = require('circular-json');
 
 
+custapp.use(cors());
 custapp.get('/logon', (req, res) => 
 {    
         var user_id = req.param('user');
